@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<!-- Jackson Hagood | jacksonhagood.com | About -->
+
+<html>
+    <head>
+        <title>Kyleigh McKim | Photography</title>
+
+        <link id = "theme" rel = "stylesheet" type = "text/css" href = "CSS/style.css"/>
+
+        <link rel = "icon" type = "image/x-icon" href = "Images/Icons/Logo.ico"/>
+
+        <script src = "JavaScript/script.js"></script>
+    </head>
+
+    <body class = "index">
+        <header id = "header">
+            <a href = "index.html" class = "about">About</a>
+            <div class = "navigation">
+                <a href = "resume.html">Resume</a>
+                <a href = "travel.html">Travel</a>
+                <a href = "riding.html">Riding</a>
+                <a href = "photography.html">Photography</a>
+                <a href = "nursing.html">Nursing</a>
+            </div>
+        </header>
+        
+        <article>
+            <div class = "center">
+                <div class = "links">
+                    <h1>Riding</h1>
+                    <a href = "https://instagram.com/kyleigh_mckim" target = "_blank"><img src = "Images/Icons/Instagram.png" alt = "Instagram" title = "Instagram" class = "circle"></a>
+                </div>
+
+                <p>
+                    I have been an equestrian hunter/jumper for over 15 years. I started at the age of 6 after being a ballerina and figure skater for the first few years of my life. Finding my love for this sport was where I felt the most confident and inspired the most. I have a deep respect for the horses, and they, my coaches, and those in the community have taught me patience and perseverance. Furthermore, some other activities I enjoy are painting, drawing, scrapbooking, cooking, baking, singing with 6 years in competitive UIL choir, music, and reading.  
+                </p>
+            </div>
+
+            <div class = "slideshow">
+                <div class = "slide">
+                    <div class = "number">
+                        1 / 3
+                    </div>
+                    <img src = "Images/Riding/Cashmere.jpg">
+                </div>
+
+                <div class = "slide">
+                    <div class = "number">
+                        2 / 3
+                    </div>
+                    <img src = "Images/Riding/HugsWithRemy.jpg">
+                </div>
+
+                <div class = "slide">
+                    <div class = "number">
+                        3 / 3
+                    </div>
+                    <img src = "Images/Riding/Remy.jpg">
+                </div>
+
+                <a class = "prev" onclick = "changeSlide(-1)">‹</a>
+                <a class = "next" onclick = "changeSlide(1)">›</a>
+            </div>
+        </article>
+    </body>
+
+    <head>
+        <script>
+            currentSlide = 1;
+            showSlide(currentSlide);
+        </script>
+    </head>
+</html>
